@@ -34,7 +34,7 @@ app.get('/', (req: Request, res: Response, next: NextFunction) => {
     res.status(StatusCodes.OK).json({
         success: true,
         message: 'Welcome to the Nord Commerce API',
-        version: '1.0.0',
+        version: '2.0.0',
         clientDetails: {
             ipAddress: clientIp,
             accessedAt: currentDateTime,
