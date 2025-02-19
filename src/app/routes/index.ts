@@ -15,51 +15,51 @@ const router = Router();
 
 const moduleRoutes = [
    {
-      path: '/user',
+      path: 'api/user',
       route: UserRoutes,
    },
    {
-      path: '/auth',
+      path: 'api/auth',
       route: AuthRoutes,
    },
    {
-      path: '/shop',
+      path: 'api/shop',
       route: ShopRoutes,
    },
    {
-      path: '/category',
+      path: 'api/category',
       route: CategoryRoutes,
    },
    {
-      path: '/brand',
+      path: 'api/brand',
       route: BrandRoutes,
    },
    {
-      path: '/product',
+      path: 'api/product',
       route: ProductRoutes,
    },
    {
-      path: '/flash-sale',
+      path: 'api/flash-sale',
       route: FlashSaleRoutes,
    },
    {
-      path: '/order',
+      path: 'api/order',
       route: OrderRoutes,
    },
    {
-      path: '/coupon',
+      path: 'api/coupon',
       route: CouponRoutes,
    },
    {
-      path: '/ssl',
+      path: 'api/ssl',
       route: SSLRoutes,
    },
    {
-      path: '/review',
+      path: 'api/review',
       route: ReviewRoutes,
    },
    {
-      path: '/meta',
+      path: 'api/meta',
       route: MetaRoutes,
    },
 ];
